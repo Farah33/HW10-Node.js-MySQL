@@ -1,0 +1,24 @@
+{
+  "name": "hw10-node.js-mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farah33/HW10-Node.js-MySQL.git"
+  },
+  "author": "khadija",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farah33/HW10-Node.js-MySQL/issues"
+  },
+  "homepage": "https://github.com/Farah33/HW10-Node.js-MySQL#readme",
+  "dependencies": {
+    "mysql": "^2.15.0",
+    "table": "^4.0.3"
+  },
+  "devDependencies": {}
+}
