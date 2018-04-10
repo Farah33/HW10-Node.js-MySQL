@@ -27,22 +27,3 @@ values ('Vizo', 'Electronics', 500, 3),
         
 
 
-CREATE TABLE orders (
-  order_id INTEGER(11) AUTO_INCREMENT NOT NULL,
-  itemID INTEGER(11) NOT NULL,
-  product_name VARCHAR(100) NOT NULL,
-  quantity INTEGER(11) NOT NULL,
-  total_price INTEGER(11) NOT NULL,
-  remaining_stock INTEGER(11) NOT NULL,
-  PRIMARY KEY (order_id)
-);
-
-CREATE TABLE inventory_log (
-  log_id INTEGER(11) AUTO_INCREMENT NOT NULL,
- itemID INTEGER(11) NOT NULL,
-  product_name VARCHAR(100) NOT NULL,
-  current_stock INTEGER(11) NOT NULL,
-  quantity_added INTEGER(11) NOT NULL,
-  updated_stock INTEGER(11) NOT NULL,
-  PRIMARY KEY (log_id)
-);
